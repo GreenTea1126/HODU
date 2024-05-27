@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Pretendard Variable", sans-serif;
+}
+.container{
+    position: relative;
+    width: 1920px;
+    display: flex;
+    flex-directionion: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 160px;
+}
+
+
+header {
+    position: fixed; /* 추가: 헤더를 상단에 고정 */
+    height: 102px;
+    width: 1920px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(242, 233, 216, 1);
+    z-index: 999;
+}
+
+#hodulogo {
+    margin: 31px 1470px 31px 320px;
+}
+
+
+header>ul {
+    display: flex;
+    position: absolute;
+    top: 41px;
+    list-style: none;
+    gap: 30px;
+    margin: 0 0 0 1206px;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: black;
+}
+
+section {
+    height: 798px;
+    margin-top: 102px;
+    /*헤더 부분만큼 마진탑 줌*/
+    width: 1920px;
+    background-color: rgba(242, 233, 216, 1);
+}
+
+button {
+    width: 140px;
+    height: 50px;
+    color: white;
+    border-radius: 40px;
+    background-color: rgba(217, 118, 82, 1);
+    border: none;
+}
+.button1{
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    top: 26px;
+    left: 1460px;
+}
+.button1 a{
+    text-decoration: none;
+    color: inherit;
+}
+.button2 {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    top: 590px;
+    left: 320px;
+}
+.button2 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Group {
+    position: absolute;
+    top: 31px;
+    left: 320px;
+    width: 130px;
+    height: 40px;
+}
+.Toptext1 {
+    position: absolute;
+    width: 695px;
+    height: 120px;
+    top: 304px;
+    left: 320px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    letter-spacing: -3px;
+}
+
+.Toptext2 {
+    position: absolute;
+    width: 420px;
+    height: 86px;
+    top: 464px;
+    left: 320px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: -0.5px;
+}
+.Boxcat {
+    position: absolute;
+    width: 415px;
+    height: 766px;
+    top: 136px;
+    left: 1185px;
+}
+.cat1 {
+    position: absolute;
+    width: 660px;
+    height: 390px;
+    top: 1060px;
+    left: 320px;
+    border-radius: 30px;
+}
+.midhA1 {
+    position: absolute;
+    width: 510px;
+    height: 135px;
+    top: 1152px;
+    left: 1090px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+}
+.midhA2 {
+    position: absolute;
+    width: 510px;
+    height: 40px;
+    top: 1317px;
+    left: 1090px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.midhB1 {
+    position: absolute;
+    width: 875px;
+    height: 60px;
+    top: 1570px;
+    left: 523px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color:rgba(217, 118, 82, 1);
+    letter-spacing: -3px;
+}
+.midhB2 {
+    position: absolute;
+    width: 710px;
+    height: 42px;
+    top: 1670px;
+    left: 605px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+.highlightB1 {
+    font-family: Pretendard, serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color:rgba(217, 118, 82, 1);
+}
+
+.figureA {
+    display: flex;
+    position: absolute;
+    top: 1800px;
+    left: 320px;
+}
+.figureB {
+    position: absolute;
+    display: flex;
+    top: 2250px;
+    left: 320px
+}
+
+.figureA, .figureB {
+    display: flex;
+    justify-content: center;
+}
+
+.figureA > div, .figureB > div {
+    margin: 0 10px;
+}
+
+.figureA img, .figureB img {
+    width: 378px;
+    height: 378px;
+    border-radius: 50px;
+}
+.showbox {
+    position: absolute;
+    display: flex;
+    left: 815px;
+    top: 2728px;
+    width: 290px;
+    height: 108px;
+}
+.continuebox {
+    width: 290px;
+    top: 2650px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+.button3 {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin-top : 58px;
+    margin-left : 75px;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+}
+.button3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.divider {
+    position: absolute;
+    width: 1278px;
+    height: 1px;
+    top: 2916px;
+    left: 320px;
+    color: rgba(196, 196, 196, 1);
+}
+
+.maptext {
+    top : 2984px;
+    left : 320px;
+}
+.map1 {
+    position: absolute;
+    top: 2984px;
+    left: 320px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.map2 {
+    position: absolute;
+    top: 3004px;
+    left: 320px;
+    margin-top: 45px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+#mapkacao {
+    position: absolute;
+    width: 1278px;
+    height: 520px;
+    top: 3052px;
+    left: 320px;
+    margin-top: 48px;
+    border-radius: 12px;
+}
+.blogpost {
+    z-index: 2;
+    position: absolute;
+    width: 1280px;
+    height: 201px;
+    top: 3640px;
+    left: 320px;
+    background-color: rgba(38, 49, 64, 1) ;
+    border-radius: 30px;
+}
+
+.sub-text-Group {
+    position: absolute;
+}
+.sub-text-Group1 {
+    height: 45px;
+    margin: 51px 0 0 58px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.mail {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 88px;
+    left: 720px;
+}
+.sub-text-Group2 {
+    height: 36px;
+    margin: 18px 0 0 58px;
+    top: 114px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: rgba(242, 233, 216, 1);
+}
+
+
+
+/*이메일 제출*/
+.enter-email-Box {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 530px;
+    height: 60px;
+    top: 70px;
+    left: 692px;
+    border-radius: 60px ;
+    background-color: white;
+}
+
+.mailimage {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.email-form {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+.email-form input[type="email"] {
+    flex-grow: 1;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.email-form input[type="submit"] {
+    padding: 15px 29px 15px 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: rgba(217, 118, 82, 1);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    margin-right: 6px;
+}
+
+.placeholder-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+/*이메일 제출 끝*/
+
+
+#bottomcat {
+    position: absolute;
+    width: 1920px;
+    top : 3741px;
+    height: 340px;
+}
+
+footer {
+    position: absolute;
+    top: 4081px;
+    width: 1920px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.footericon {
+    width : 42px;
+    height : 42px;
+}
+#footerhodu {
+    width: 226px;
+    height: 70px;
+    margin: 45px 826px 45px 320px;
+}
+
+#footerlogos{
+    align-items: center;
+    width: 228px;
+    height: 42px;
+    margin:  58px 320px 60px 0
+}
+
+#scroll-top-btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 4010px;
+    left: 1846px;
+    background: url("scroll-top-btn.png") no-repeat center center;
+    cursor: pointer;
+}
+
+#scroll-top-btn:hover {
+    background: url("scroll-top-btn1.png") no-repeat center center;
+}
+
+#scroll-top-btn.show {
+    opacity: 1;
+}
+

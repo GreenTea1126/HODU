@@ -1,0 +1,40 @@
+.modal-content {
+    border-radius: 30px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    background-image: url('image/무제-1 1.png');
+}
+
+#modal2 {
+    margin-top: 60px;
+    width: 110px;
+    height: 112px;
+}
+
+.modal-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 24px;
+    color: rgba(217, 118, 82, 1);
+}
+
+.modal-content h2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.modal-content button {
+    width: 183px;
+    height: 50px;
+    top: 310px;
+    left: 205px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 38px
+}
